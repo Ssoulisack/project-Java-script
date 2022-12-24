@@ -91,7 +91,7 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color:rgb(241, 119, 119);
+    color:rgb(255, 255, 255);
 }
 
 .header .navbar a:hover{
@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
+    background:url(../images/home.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -638,3 +638,22 @@ section{
     }
 
 }
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:8rem 2rem;
+ }
+ 
+ .title{
+    font-size: 3.5rem;
+    color:rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ .checked{
+    color: yellowgreen;
+    font-size: 1.5rem;
+ }
+
