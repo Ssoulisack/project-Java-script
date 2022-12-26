@@ -85,13 +85,13 @@ section{
 }
 
 .header .logo img{
-    height: 10rem;
+    height: 6rem;
 }
 
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color:rgb(255, 255, 255);
+    color:#fff;
 }
 
 .header .navbar a:hover{
@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home.png) no-repeat;
+    background:url(../images/home-img.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -261,6 +261,7 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
+
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -361,6 +362,7 @@ section{
     font-weight: lighter;
     font-size: 1.5rem;
 }
+
 .review .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -638,22 +640,3 @@ section{
     }
 
 }
-
-.container{
-    max-width: 1200px;
-    margin:0 auto;
-    padding:8rem 2rem;
- }
- 
- .title{
-    font-size: 3.5rem;
-    color:rgb(255, 255, 255);
-    margin-bottom: 3rem;
-    text-transform: uppercase;
-    text-align: center;
- }
- .checked{
-    color: yellowgreen;
-    font-size: 1.5rem;
- }
-
